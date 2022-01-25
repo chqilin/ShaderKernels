@@ -1,0 +1,18 @@
+
+#ifndef _SHADERFAB_MATH_BASIC_HLSL_
+#define _SHADERFAB_MATH_BASIC_HLSL_
+
+#define EPSILON 0.00001
+
+#define E 2.71828183
+#define PI 3.14159265359
+#define PI_MUL_2 6.28318530718
+#define PI_DIV_2 1.57079632679
+#define SQRT_2 1.414
+#define SQRT_3 1.732
+
+#define DEG_TO_RAD (PI / 180.0)
+#define RAD_TO_DEG (180.0 / PI)
+
+
+#endif//_SHADERFAB_MATH_BASIC_HLSL_
