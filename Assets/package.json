@@ -1,7 +1,7 @@
 {
-  "name": "shaderfab",
-  "version": "1.0.4",
-  "displayName": "Shaderfab",
+  "name": "shaderkernels",
+  "version": "1.0.6",
+  "displayName": "ShaderKernels",
   "description": "A HLSL shader library which includes algorithms for math, graphics and physics.",
   "main": "index.hlsl",
   "files": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chqilin/shaderfab.git"
+    "url": "git+https://github.com/chqilin/ShaderKernels.git"
   },
   "keywords": [
     "shader",
@@ -30,7 +30,7 @@
   "author": "Qilin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chqilin/shaderfab/issues"
+    "url": "https://github.com/chqilin/ShaderKernels/issues"
   },
-  "homepage": "https://github.com/chqilin/shaderfab#readme"
+  "homepage": "https://github.com/chqilin/ShaderKernels#readme"
 }
