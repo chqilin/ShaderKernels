@@ -1,0 +1,36 @@
+{
+  "name": "shaderfab",
+  "version": "1.0.4",
+  "displayName": "Shaderfab",
+  "description": "A HLSL shader library which includes algorithms for math, graphics and physics.",
+  "main": "index.hlsl",
+  "files": [
+    "ShaderLibrary",
+    "ShaderLibrary.meta",
+    "README.md",
+    "README.md.meta",
+    "package.json",
+    "package.json.meta"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chqilin/shaderfab.git"
+  },
+  "keywords": [
+    "shader",
+    "hlsl",
+    "gpu",
+    "math",
+    "graphics",
+    "physics"
+  ],
+  "author": "Qilin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chqilin/shaderfab/issues"
+  },
+  "homepage": "https://github.com/chqilin/shaderfab#readme"
+}
