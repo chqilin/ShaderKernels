@@ -1,6 +1,6 @@
 {
   "name": "shaderfab",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "displayName": "Shaderfab",
   "description": "A HLSL shader library which includes algorithms for math, graphics and physics.",
   "main": "index.hlsl",
@@ -10,8 +10,8 @@
     "package.json",
     "package.json.meta"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    
   },
   "repository": {
     "type": "git",

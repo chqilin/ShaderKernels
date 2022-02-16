@@ -1,7 +1,7 @@
 #ifndef _SHADERFAB_MATH_MATRIX_HLSL_
 #define _SHADERFAB_MATH_MATRIX_HLSL_
 
-float4x4 matrixIdentity()
+float4x4 MatrixIdentity()
 {
     return float4x4(
         1, 0, 0, 0,
@@ -11,7 +11,7 @@ float4x4 matrixIdentity()
     );
 }
 
-float4x4 matrixTranslate(float3 t)
+float4x4 MatrixTranslate(float3 t)
 {
     return float4x4(
         1,  0,  0,  t.x,
@@ -24,7 +24,7 @@ float4x4 matrixTranslate(float3 t)
 /*
  * Create a matrix with angle and axis.
  */
-float4x4 matrixRotationAngleAxis(float angle, float3 axis)
+float4x4 MatrixRotationAngleAxis(float angle, float3 axis)
 {
     float c, s;
     sincos(angle, s, c);
@@ -44,7 +44,7 @@ float4x4 matrixRotationAngleAxis(float angle, float3 axis)
 /*
  * Create a matrix for scale(x, y, z)
  */
-float4x4 matrixScale(float x, float y, float z)
+float4x4 MatrixScale(float x, float y, float z)
 {
     return float4x4
     (
@@ -59,7 +59,7 @@ float4x4 matrixScale(float x, float y, float z)
 /*
  * Create a matrix for tangent-local transform.
  */
-float4x4 matrixTangentToLocal(float3 tangent, float3 normal)
+float4x4 MatrixTangentToLocal(float3 tangent, float3 normal)
 {
     float3 binormal = cross(normal, tangent);
     return float4x4

@@ -10,14 +10,14 @@ Extended discussion on this function can be found at the following link:
 https://forum.unity.com/threads/am-i-over-complicating-this-random-function.454887/#post-2949326
 Returns a number in the 0...1 range.
 */
-float random(float3 seed)
+float Random(float3 seed)
 {
     return frac(sin(dot(seed.xyz, float3(12.9898, 78.233, 53.539))) * 43758.5453);
 }
 
-float randomRange(float3 seed, float2 range)
+float RandomRange(float3 seed, float2 range)
 {
-    return range.x + random(seed) * (range.y - range.x);
+    return range.x + Random(seed) * (range.y - range.x);
 }
 
 #endif//_SHADERFAB_MATH_RANDOM_HLSL_
