@@ -1,6 +1,6 @@
 {
   "name": "shaderfab",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "displayName": "Shaderfab",
   "description": "A HLSL shader library which includes algorithms for math, graphics and physics.",
   "main": "index.hlsl",
