@@ -1,7 +1,7 @@
 #ifndef _SHADERFAB_MATH_CURVE_HLSL_
 #define _SHADERFAB_MATH_CURVE_HLSL_
 
-float QuadraticBezier1D(float t, float p0, float p1, float3 p2)
+float QuadraticBezier1D(float t, float p0, float p1, float p2)
 {
     return
         p0 * (1.0 - t) * (1.0 - t) +

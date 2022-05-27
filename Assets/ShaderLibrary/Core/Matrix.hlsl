@@ -55,7 +55,6 @@ float4x4 MatrixScale(float x, float y, float z)
     );
 }
 
-
 /*
  * Create a matrix for tangent-local transform.
  */
